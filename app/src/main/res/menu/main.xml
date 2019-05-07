@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/title4"
+        android:icon="@drawable/saerch"
+        android:title="@string/item4"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/title5"
+        android:title="@string/filter"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/title1"
+        android:icon="@drawable/share"
+        android:title="@string/share"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/title2"
+        android:title="@string/notification"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/title3"
+        android:title="@string/createaccount"
+        app:showAsAction="never" />
+
+</menu>
